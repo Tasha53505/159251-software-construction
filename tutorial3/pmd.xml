@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.3.0" timestamp="2024-08-05T13:47:58.223">
+<file name="C:\Users\ncarr\Source\159251-software-construction\tutorial3\commons-text\src\main\java\org\apache\commons\text\AlphabetConverter.java">
+<violation beginline="245" endline="245" begincolumn="16" endcolumn="33" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.apache.commons.text" class="AlphabetConverter" method="createConverterFromChars" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary qualifier 'AlphabetConverter': 'createConverter' is already in scope
+</violation>
+</file>
+<file name="C:\Users\ncarr\Source\159251-software-construction\tutorial3\commons-text\src\main\java\org\apache\commons\text\StrBuilder.java">
+<violation beginline="1975" endline="1975" begincolumn="13" endcolumn="22" rule="AvoidBranchingStatementAsLastInLoop" ruleset="Error Prone" package="org.apache.commons.text" class="StrBuilder" method="indexOf" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_errorprone.html#avoidbranchingstatementaslastinloop" priority="2">
+Avoid using a branching statement as the last in a loop.
+</violation>
+<violation beginline="2303" endline="2303" begincolumn="17" endcolumn="26" rule="AvoidBranchingStatementAsLastInLoop" ruleset="Error Prone" package="org.apache.commons.text" class="StrBuilder" method="lastIndexOf" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_errorprone.html#avoidbranchingstatementaslastinloop" priority="2">
+Avoid using a branching statement as the last in a loop.
+</violation>
+</file>
+<file name="C:\Users\ncarr\Source\159251-software-construction\tutorial3\commons-text\src\main\java\org\apache\commons\text\StrSubstitutor.java">
+<violation beginline="194" endline="194" begincolumn="16" endcolumn="30" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.apache.commons.text" class="StrSubstitutor" method="replace" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary qualifier 'StrSubstitutor': 'replace' is already in scope
+</violation>
+</file>
+<file name="C:\Users\ncarr\Source\159251-software-construction\tutorial3\commons-text\src\main\java\org\apache\commons\text\StringSubstitutor.java">
+<violation beginline="433" endline="433" begincolumn="16" endcolumn="33" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.apache.commons.text" class="StringSubstitutor" method="replace" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary qualifier 'StringSubstitutor': 'replace' is already in scope
+</violation>
+</file>
+<file name="C:\Users\ncarr\Source\159251-software-construction\tutorial3\commons-text\src\main\java\org\apache\commons\text\TextStringBuilder.java">
+<violation beginline="2142" endline="2142" begincolumn="13" endcolumn="22" rule="AvoidBranchingStatementAsLastInLoop" ruleset="Error Prone" package="org.apache.commons.text" class="TextStringBuilder" method="indexOf" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_errorprone.html#avoidbranchingstatementaslastinloop" priority="2">
+Avoid using a branching statement as the last in a loop.
+</violation>
+<violation beginline="2475" endline="2475" begincolumn="17" endcolumn="26" rule="AvoidBranchingStatementAsLastInLoop" ruleset="Error Prone" package="org.apache.commons.text" class="TextStringBuilder" method="lastIndexOf" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_errorprone.html#avoidbranchingstatementaslastinloop" priority="2">
+Avoid using a branching statement as the last in a loop.
+</violation>
+</file>
+<file name="C:\Users\ncarr\Source\159251-software-construction\tutorial3\commons-text\src\main\java\org\apache\commons\text\lookup\JavaPlatformStringLookup.java">
+<violation beginline="86" endline="86" begincolumn="53" endcolumn="77" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.apache.commons.text.lookup" class="JavaPlatformStringLookup" method="main" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary qualifier 'JavaPlatformStringLookup': 'INSTANCE' is already in scope because it is declared in an enclosing type
+</violation>
+<violation beginline="87" endline="87" begincolumn="53" endcolumn="77" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.apache.commons.text.lookup" class="JavaPlatformStringLookup" method="main" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary qualifier 'JavaPlatformStringLookup': 'INSTANCE' is already in scope because it is declared in an enclosing type
+</violation>
+<violation beginline="88" endline="88" begincolumn="48" endcolumn="72" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.apache.commons.text.lookup" class="JavaPlatformStringLookup" method="main" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary qualifier 'JavaPlatformStringLookup': 'INSTANCE' is already in scope because it is declared in an enclosing type
+</violation>
+<violation beginline="89" endline="89" begincolumn="48" endcolumn="72" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.apache.commons.text.lookup" class="JavaPlatformStringLookup" method="main" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary qualifier 'JavaPlatformStringLookup': 'INSTANCE' is already in scope because it is declared in an enclosing type
+</violation>
+<violation beginline="90" endline="90" begincolumn="54" endcolumn="78" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.apache.commons.text.lookup" class="JavaPlatformStringLookup" method="main" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary qualifier 'JavaPlatformStringLookup': 'INSTANCE' is already in scope because it is declared in an enclosing type
+</violation>
+<violation beginline="91" endline="91" begincolumn="52" endcolumn="76" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.apache.commons.text.lookup" class="JavaPlatformStringLookup" method="main" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary qualifier 'JavaPlatformStringLookup': 'INSTANCE' is already in scope because it is declared in an enclosing type
+</violation>
+</file>
+<file name="C:\Users\ncarr\Source\159251-software-construction\tutorial3\commons-text\src\main\java\org\apache\commons\text\lookup\PropertiesStringLookup.java">
+<violation beginline="56" endline="56" begincolumn="16" endcolumn="36" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.apache.commons.text.lookup" class="PropertiesStringLookup" method="toPropertyKey" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary qualifier 'AbstractStringLookup': 'toLookupKey' is already in scope
+</violation>
+</file>
+<file name="C:\Users\ncarr\Source\159251-software-construction\tutorial3\commons-text\src\main\java\org\apache\commons\text\lookup\StringLookupFactory.java">
+<violation beginline="334" endline="334" begincolumn="73" endcolumn="92" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.apache.commons.text.lookup" class="DefaultStringLookupsHolder" method="DefaultStringLookupsHolder" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary qualifier 'StringLookupFactory': 'DEFAULT_STRING_LOOKUPS_PROPERTY' is already in scope because it is declared in an enclosing type
+</violation>
+<violation beginline="335" endline="335" begincolumn="60" endcolumn="79" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.apache.commons.text.lookup" class="DefaultStringLookupsHolder" method="DefaultStringLookupsHolder" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary qualifier 'StringLookupFactory': 'DEFAULT_STRING_LOOKUPS_PROPERTY' is already in scope because it is declared in an enclosing type
+</violation>
+<violation beginline="673" endline="673" begincolumn="16" endcolumn="35" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.apache.commons.text.lookup" class="StringLookupFactory" method="base64DecoderStringLookup" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary qualifier 'StringLookupFactory': 'INSTANCE_BASE64_DECODER' is already in scope because it is declared in an enclosing type
+</violation>
+<violation beginline="700" endline="700" begincolumn="16" endcolumn="35" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.apache.commons.text.lookup" class="StringLookupFactory" method="base64EncoderStringLookup" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary qualifier 'StringLookupFactory': 'INSTANCE_BASE64_ENCODER' is already in scope because it is declared in an enclosing type
+</violation>
+<violation beginline="729" endline="729" begincolumn="16" endcolumn="35" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.apache.commons.text.lookup" class="StringLookupFactory" method="base64StringLookup" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary qualifier 'StringLookupFactory': 'INSTANCE_BASE64_DECODER' is already in scope because it is declared in an enclosing type
+</violation>
+<violation beginline="871" endline="871" begincolumn="16" endcolumn="35" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.apache.commons.text.lookup" class="StringLookupFactory" method="environmentVariableStringLookup" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary qualifier 'StringLookupFactory': 'INSTANCE_ENVIRONMENT_VARIABLES' is already in scope because it is declared in an enclosing type
+</violation>
+<violation beginline="1135" endline="1135" begincolumn="16" endcolumn="35" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.apache.commons.text.lookup" class="StringLookupFactory" method="nullStringLookup" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary qualifier 'StringLookupFactory': 'INSTANCE_NULL' is already in scope because it is declared in an enclosing type
+</violation>
+<violation beginline="1376" endline="1376" begincolumn="16" endcolumn="35" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.apache.commons.text.lookup" class="StringLookupFactory" method="systemPropertyStringLookup" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary qualifier 'StringLookupFactory': 'INSTANCE_SYSTEM_PROPERTIES' is already in scope because it is declared in an enclosing type
+</violation>
+</file>
+<suppressedviolation filename="C:\Users\ncarr\Source\159251-software-construction\tutorial3\commons-text\src\main\java\org\apache\commons\text\diff\StringsComparator.java" suppressiontype="//nopmd" msg="This if statement could be combined with its parent" usermsg="
+"></suppressedviolation>
+<suppressedviolation filename="C:\Users\ncarr\Source\159251-software-construction\tutorial3\commons-text\src\main\java\org\apache\commons\text\diff\StringsComparator.java" suppressiontype="//nopmd" msg="This if statement could be combined with its parent" usermsg="
+"></suppressedviolation>
+<suppressedviolation filename="C:\Users\ncarr\Source\159251-software-construction\tutorial3\commons-text\src\main\java\org\apache\commons\text\ExtendedMessageFormat.java" suppressiontype="//nopmd" msg="Avoid empty catch blocks" usermsg="
+"></suppressedviolation>
+</pmd>

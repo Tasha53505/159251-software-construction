@@ -1,0 +1,6 @@
+a. 240 files
+b. 274
+c. 46376
+d. CBO--> CBC not a thing with MetricsReloaded org.apache.commons.text.lookup.StringLookupFactory	38.0
+org.apache.commons.text.lookup.AbstractStringLookup	22.0
+e. org.apache.commons.text.TextStringBuilder	386.0 weighted method complexity
